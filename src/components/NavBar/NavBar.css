@@ -1,0 +1,54 @@
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between; /* Agrega espacio entre el título y los enlaces */
+    align-items: center;
+    padding: 15px;
+}
+
+.ul_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+    margin: 0; /* Quita el margen por defecto de la lista */
+}
+
+.li_nav {
+    margin: 0 10px;
+    list-style: none;
+    text-decoration: none;
+    color:white;
+}
+
+.store_title {
+    font-weight: 700;
+    color:black;
+    background-color: white;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ul_nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .li_nav {
+        margin: 10px 0;
+    }
+}
+.carticon {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    justify-content:left ;
+}
